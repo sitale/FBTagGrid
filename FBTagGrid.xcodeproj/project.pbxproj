@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2512B5A325F1DEFA006FEC48 /* FBTagGridApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2512B59025F1DEF3006FEC48 /* FBTagGridApp.swift */; };
+		2512B5A425F1DEFA006FEC48 /* FBTagGridApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2512B59025F1DEF3006FEC48 /* FBTagGridApp.swift */; };
+		2512B5A525F1DEFA006FEC48 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2512B59125F1DEF3006FEC48 /* ContentView.swift */; };
+		2512B5A625F1DEFA006FEC48 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2512B59125F1DEF3006FEC48 /* ContentView.swift */; };
+		2512B5A725F1DEFA006FEC48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2512B59225F1DEFA006FEC48 /* Assets.xcassets */; };
+		2512B5A825F1DEFA006FEC48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2512B59225F1DEFA006FEC48 /* Assets.xcassets */; };
+		2512B5B525F1DF52006FEC48 /* FBTagGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2512B5B425F1DF52006FEC48 /* FBTagGrid.swift */; };
+		2512B5CB25F1E07F006FEC48 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2512B5CA25F1E07F006FEC48 /* TestView.swift */; };
+		2512B5CF25F1E28B006FEC48 /* OnlyText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2512B5CE25F1E28B006FEC48 /* OnlyText.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2512B59025F1DEF3006FEC48 /* FBTagGridApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBTagGridApp.swift; sourceTree = "<group>"; };
+		2512B59125F1DEF3006FEC48 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2512B59225F1DEFA006FEC48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2512B59725F1DEFA006FEC48 /* FBTagGrid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FBTagGrid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2512B59A25F1DEFA006FEC48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2512B59F25F1DEFA006FEC48 /* FBTagGrid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FBTagGrid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2512B5A125F1DEFA006FEC48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2512B5A225F1DEFA006FEC48 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		2512B5B425F1DF52006FEC48 /* FBTagGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBTagGrid.swift; sourceTree = "<group>"; };
+		2512B5CA25F1E07F006FEC48 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		2512B5CE25F1E28B006FEC48 /* OnlyText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlyText.swift; sourceTree = "<group>"; };
+		2512B5D425F1F35A006FEC48 /* FBTagGrid.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FBTagGrid.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2512B59425F1DEFA006FEC48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2512B59C25F1DEFA006FEC48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2512B58A25F1DEF3006FEC48 = {
+			isa = PBXGroup;
+			children = (
+				2512B5D425F1F35A006FEC48 /* FBTagGrid.entitlements */,
+				2512B58F25F1DEF3006FEC48 /* Shared */,
+				2512B59925F1DEFA006FEC48 /* iOS */,
+				2512B5A025F1DEFA006FEC48 /* macOS */,
+				2512B59825F1DEFA006FEC48 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2512B58F25F1DEF3006FEC48 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				2512B5B325F1DF01006FEC48 /* Sources */,
+				2512B59025F1DEF3006FEC48 /* FBTagGridApp.swift */,
+				2512B5CA25F1E07F006FEC48 /* TestView.swift */,
+				2512B5CE25F1E28B006FEC48 /* OnlyText.swift */,
+				2512B59125F1DEF3006FEC48 /* ContentView.swift */,
+				2512B59225F1DEFA006FEC48 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		2512B59825F1DEFA006FEC48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2512B59725F1DEFA006FEC48 /* FBTagGrid.app */,
+				2512B59F25F1DEFA006FEC48 /* FBTagGrid.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2512B59925F1DEFA006FEC48 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2512B59A25F1DEFA006FEC48 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		2512B5A025F1DEFA006FEC48 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				2512B5A125F1DEFA006FEC48 /* Info.plist */,
+				2512B5A225F1DEFA006FEC48 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		2512B5B325F1DF01006FEC48 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				2512B5B425F1DF52006FEC48 /* FBTagGrid.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2512B59625F1DEFA006FEC48 /* FBTagGrid (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2512B5AB25F1DEFA006FEC48 /* Build configuration list for PBXNativeTarget "FBTagGrid (iOS)" */;
+			buildPhases = (
+				2512B59325F1DEFA006FEC48 /* Sources */,
+				2512B59425F1DEFA006FEC48 /* Frameworks */,
+				2512B59525F1DEFA006FEC48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FBTagGrid (iOS)";
+			productName = "FBTagGrid (iOS)";
+			productReference = 2512B59725F1DEFA006FEC48 /* FBTagGrid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2512B59E25F1DEFA006FEC48 /* FBTagGrid (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2512B5AE25F1DEFA006FEC48 /* Build configuration list for PBXNativeTarget "FBTagGrid (macOS)" */;
+			buildPhases = (
+				2512B59B25F1DEFA006FEC48 /* Sources */,
+				2512B59C25F1DEFA006FEC48 /* Frameworks */,
+				2512B59D25F1DEFA006FEC48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FBTagGrid (macOS)";
+			productName = "FBTagGrid (macOS)";
+			productReference = 2512B59F25F1DEFA006FEC48 /* FBTagGrid.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2512B58B25F1DEF3006FEC48 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					2512B59625F1DEFA006FEC48 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					2512B59E25F1DEFA006FEC48 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 2512B58E25F1DEF3006FEC48 /* Build configuration list for PBXProject "FBTagGrid" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2512B58A25F1DEF3006FEC48;
+			productRefGroup = 2512B59825F1DEFA006FEC48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2512B59625F1DEFA006FEC48 /* FBTagGrid (iOS) */,
+				2512B59E25F1DEFA006FEC48 /* FBTagGrid (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2512B59525F1DEFA006FEC48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2512B5A725F1DEFA006FEC48 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2512B59D25F1DEFA006FEC48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2512B5A825F1DEFA006FEC48 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2512B59325F1DEFA006FEC48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2512B5CF25F1E28B006FEC48 /* OnlyText.swift in Sources */,
+				2512B5A525F1DEFA006FEC48 /* ContentView.swift in Sources */,
+				2512B5CB25F1E07F006FEC48 /* TestView.swift in Sources */,
+				2512B5A325F1DEFA006FEC48 /* FBTagGridApp.swift in Sources */,
+				2512B5B525F1DF52006FEC48 /* FBTagGrid.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2512B59B25F1DEFA006FEC48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2512B5A625F1DEFA006FEC48 /* ContentView.swift in Sources */,
+				2512B5A425F1DEFA006FEC48 /* FBTagGridApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2512B5A925F1DEFA006FEC48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2512B5AA25F1DEFA006FEC48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		2512B5AC25F1DEFA006FEC48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FBTagGrid.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 386LX454LX;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.fobiu.FBTagGrid;
+				PRODUCT_NAME = FBTagGrid;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,6";
+			};
+			name = Debug;
+		};
+		2512B5AD25F1DEFA006FEC48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FBTagGrid.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 386LX454LX;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.fobiu.FBTagGrid;
+				PRODUCT_NAME = FBTagGrid;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,6";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2512B5AF25F1DEFA006FEC48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 386LX454LX;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.fobiu.FBTagGrid;
+				PRODUCT_NAME = FBTagGrid;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		2512B5B025F1DEFA006FEC48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 386LX454LX;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.fobiu.FBTagGrid;
+				PRODUCT_NAME = FBTagGrid;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2512B58E25F1DEF3006FEC48 /* Build configuration list for PBXProject "FBTagGrid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2512B5A925F1DEFA006FEC48 /* Debug */,
+				2512B5AA25F1DEFA006FEC48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2512B5AB25F1DEFA006FEC48 /* Build configuration list for PBXNativeTarget "FBTagGrid (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2512B5AC25F1DEFA006FEC48 /* Debug */,
+				2512B5AD25F1DEFA006FEC48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2512B5AE25F1DEFA006FEC48 /* Build configuration list for PBXNativeTarget "FBTagGrid (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2512B5AF25F1DEFA006FEC48 /* Debug */,
+				2512B5B025F1DEFA006FEC48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2512B58B25F1DEF3006FEC48 /* Project object */;
+}
